@@ -1,0 +1,33 @@
+/* manipulate the body of html */
+body {
+  /*background-image: url("https://miro.medium.com/v2/resize:fit:1316/1*waKlWCUfEsWR0CKQmvvWiw.png");
+  background-position: top;*/
+}
+
+#welcome {
+  background-color:beige;
+  opacity: 0.9
+}
+
+div {
+  margin-top: 50px;
+}
+
+p {
+  color: rgb(2, 45, 2);
+  margin-top: inherit;
+  /*margin: 50px 50px 50px 50px;
+  margin-left: 50%;
+  margin-top: 10%;
+  margin-right: 50%;*/
+  border-style: groove dotted dashed;
+  border-width: 2px 4px /*thin*/;
+}
+
+h2.heading {
+  /*color: blue;*/
+}
+
+/* * {
+  color: rgb(78, 41, 5);
+}*/
