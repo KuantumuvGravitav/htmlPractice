@@ -16,18 +16,78 @@ div {
 p {
   color: rgb(2, 45, 2);
   margin-top: inherit;
-  /*margin: 50px 50px 50px 50px;
+  /* margin: 50px 50px 50px 50px;
   margin-left: 50%;
   margin-top: 10%;
-  margin-right: 50%;*/
+  margin-right: 50%; */
   border-style: groove dotted dashed;
   border-width: 2px 4px /*thin*/;
+}
+
+table, th, td {
+  /* display: none; */
+  border: 1px solid;
+  width: 20%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 30px;
+}
+
+td {
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: rgb(170, 170, 241);
 }
 
 h2.heading {
   /*color: blue;*/
 }
 
-/* * {
-  color: rgb(78, 41, 5);
-}*/
+.dropdownbutton {
+  background-color: green;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  /* margin-top: 50px; */
+}
+
+div[dropdown] {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgb(189, 245, 194);
+  min-width: 150px;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .dropdownbutton {
+  background-color: rgb(80, 140, 74)
+}
